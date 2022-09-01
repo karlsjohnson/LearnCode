@@ -1,2 +1,2 @@
 # LearnCode
-Learning to Progrm
+Learning to Program
