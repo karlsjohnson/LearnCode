@@ -1,10 +1,12 @@
 import numpy as np
-import yfinance as yf
 
-msft = yf.Ticker("MSFT")
-print(msft.history(period="1mo"))
+arr = np.array(['apple', 'banana', 'cherry'])
+
+print(arr.dtype)
+print(arr.shape)
 
 x = [2, 3, 4, 5, 6]
 nums = np.array([2, 3, 4, 5, 6])
 num3 = nums * 2
 print(num3)
+print(nums.dtype)
